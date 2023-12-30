@@ -9,7 +9,7 @@ body {
 }
 
 .contact-bar {
-    background-color: #50133c; /* Baby pink color */
+    background-color: #50133c; 
     color: #fff;
     padding: 0.5em;
     text-align: right;
@@ -23,13 +23,13 @@ body {
     margin-right: 1em;
 }
 .contact-bar button.consult-button {
-    background-color: #50133c; /* Yellow color for the button */
+    background-color: #50133c; 
     color:whitesmoke;
     border: 1px solid whitesmoke;
     padding: 0.5em 1em;
     font-size: 14px;
     cursor: pointer;
-    border-radius: 20px; /* Adjust the value for the desired roundness */
+    border-radius: 20px; 
 }
 
 header {
@@ -74,18 +74,18 @@ nav a:hover {
 }
 
 .creative-section {
-    background: url('https://www.ringcentral.com/gb/en/blog/wp-content/uploads/2021/05/happy-manager-leads-a-meeting-in-the-office-scaled.jpg') center/cover; /* Replace 'your-background-image.jpg' with your actual image */
+    background: url('https://www.ringcentral.com/gb/en/blog/wp-content/uploads/2021/05/happy-manager-leads-a-meeting-in-the-office-scaled.jpg') center/cover; 
     padding: 2em;
     text-align: center;
 }
 .creative-content {
     max-width: 600px;
     margin: 0 auto;
-    background-color: transparent; /* Remove background color */
-    padding: 0; /* Remove padding */
-    border: none; /* Remove any border */
-    border-radius: 0; /* Remove any border-radius */
-    box-shadow: none; /* Remove any box-shadow */
+    background-color: transparent; 
+    padding: 0; 
+    border: none; 
+    border-radius: 0; 
+    box-shadow: none; 
 }
 
 
@@ -105,7 +105,7 @@ nav a:hover {
 
 .button-row {
     display: flex;
-    justify-content: center; /* Center the buttons */
+    justify-content: center; 
     margin-top: 1em;
 }
 
@@ -115,9 +115,9 @@ button.consult-now {
     color: #fff;
     border: none;
     padding: 0.5em 1em;
-    margin: 0 0.5em; /* Add spacing between buttons */
+    margin: 0 0.5em; 
     cursor: pointer;
-    border-radius: 20px; /* Adjust the value for the desired roundness */
+    border-radius: 20px; 
 }
 
 section {
@@ -130,11 +130,11 @@ section {
 
 .feature {
     display: flex;
-    align-items: center; /* Align items vertically in the center */
-    text-align: left; /* Adjust text alignment as needed */
+    align-items: center; 
+    text-align: left; 
     padding: 2em;
     background-color: #fff#;
-    border-radius: 20px; /* Adjust the value for the desired roundness */
+    border-radius: 20px; 
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     transition: transform 0.3s ease-in-out;
 }
@@ -159,22 +159,22 @@ footer {
     text-align: center;
 }
 .feature .feature-logo {
-    margin-right: 1em; /* Add spacing between logo and content */
+    margin-right: 1em; 
 }
 
 .feature .feature-logo img {
     
-    max-width: 50%; /* Ensure the logo does not exceed the container width */
-    border-radius: 50%; /* Make the logo circular */
+    max-width: 50%; 
+    border-radius: 50%; 
 }
 .about-us-section {
-    background-color: #80bdef; /* Adjust the background color as needed */
+    background-color: #80bdef; 
     padding: 2em;
     text-align: center;
 }
 
 .about-us-content {
-    max-width: 800px; /* Adjust the max-width as needed */
+    max-width: 800px; 
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
@@ -183,7 +183,7 @@ footer {
 
 .about-us-text {
     flex: 1;
-    text-align: left; /* Align text to the left */
+    text-align: left; 
 }
 
 .about-us-text h2 {
@@ -229,7 +229,7 @@ footer {
 }
 
 .service:hover {
-    transform: scale(1.05); /* Scale up on hover */
+    transform: scale(1.05); 
 }
 
 .service img {
@@ -241,7 +241,7 @@ footer {
 }
 
 .service-info {
-    background-color: #ffb6c1; /* Baby pink background color */
+    background-color: #ffb6c1; 
     padding: 0.5em;
     border-radius: 0 0 8px 8px;
 }
