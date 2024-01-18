@@ -1,0 +1,251 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f8f8;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.contact-bar {
+    background-color: #50133c; /* Baby pink color */
+    color: #fff;
+    padding: 0.5em;
+    text-align: right;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.contact-info {
+    font-size: 14px;
+    margin-right: 1em;
+}
+.contact-bar button.consult-button {
+    background-color: #50133c; /* Yellow color for the button */
+    color:whitesmoke;
+    border: 1px solid whitesmoke;
+    padding: 0.5em 1em;
+    font-size: 14px;
+    cursor: pointer;
+    border-radius: 20px; /* Adjust the value for the desired roundness */
+}
+
+header {
+    background-color: #80bdef;
+    color: #fff;
+    padding: 1em;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo img {
+    height: 40px;
+    margin-right: 1em;
+}
+
+.logo h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav li {
+    margin-right: 1em;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    transition: color 0.3s ease-in-out;
+}
+
+nav a:hover {
+    color: #ffcc00;
+}
+
+.creative-section {
+    background: url('https://www.ringcentral.com/gb/en/blog/wp-content/uploads/2021/05/happy-manager-leads-a-meeting-in-the-office-scaled.jpg') center/cover; /* Replace 'your-background-image.jpg' with your actual image */
+    padding: 2em;
+    text-align: center;
+}
+.creative-content {
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: transparent; /* Remove background color */
+    padding: 0; /* Remove padding */
+    border: none; /* Remove any border */
+    border-radius: 0; /* Remove any border-radius */
+    box-shadow: none; /* Remove any box-shadow */
+}
+
+
+.creative-content h2 {
+    font-size: 2em;
+    margin-bottom: 0.5em;
+}
+
+.creative-content p {
+    margin: 0.5em 0;
+}
+
+.aim {
+    font-style: italic;
+    color: black;
+}
+
+.button-row {
+    display: flex;
+    justify-content: center; /* Center the buttons */
+    margin-top: 1em;
+}
+
+button.read-more,
+button.consult-now {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 0.5em 1em;
+    margin: 0 0.5em; /* Add spacing between buttons */
+    cursor: pointer;
+    border-radius: 20px; /* Adjust the value for the desired roundness */
+}
+
+section {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 2em;
+    flex-grow: 1;
+}
+
+.feature {
+    display: flex;
+    align-items: center; /* Align items vertically in the center */
+    text-align: left; /* Adjust text alignment as needed */
+    padding: 2em;
+    background-color: #fff#;
+    border-radius: 20px; /* Adjust the value for the desired roundness */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+}
+
+
+.feature:hover {
+    transform: scale(1.05);
+}
+
+h2 {
+    color: #333;
+}
+
+p {
+    color: #666;
+}
+
+footer {
+    background-color: #333;
+    color: #50133c;
+    padding: 1em;
+    text-align: center;
+}
+.feature .feature-logo {
+    margin-right: 1em; /* Add spacing between logo and content */
+}
+
+.feature .feature-logo img {
+    
+    max-width: 50%; /* Ensure the logo does not exceed the container width */
+    border-radius: 50%; /* Make the logo circular */
+}
+.about-us-section {
+    background-color: #80bdef; /* Adjust the background color as needed */
+    padding: 2em;
+    text-align: center;
+}
+
+.about-us-content {
+    max-width: 800px; /* Adjust the max-width as needed */
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.about-us-text {
+    flex: 1;
+    text-align: left; /* Align text to the left */
+}
+
+.about-us-text h2 {
+    font-size: 2em;
+    margin-bottom: 0.5em;
+}
+
+.about-us-text p {
+    margin-bottom: 1em;
+}
+.about-us-image{
+    flex:1;
+    text-align: right;
+    background-color: #80bdef;
+}
+.about-us-image img {
+    max-width: 100%;
+    border-radius: 8px;
+}
+.our-services-section {
+    background-color: #f8f8f8;
+    padding: 2em;
+    text-align: center;
+}
+.service{
+    display: inline-block;
+    margin: 0 1em;
+}
+
+.service-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.service {
+    flex: 1;
+    overflow: hidden;
+    position: relative;
+    border-radius: 8px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.service:hover {
+    transform: scale(1.05); /* Scale up on hover */
+}
+
+.service img {
+    max-width: 100%;
+    border-radius: 8px;
+    height: auto;
+    max-width: 150px;
+
+}
+
+.service-info {
+    background-color: #ffb6c1; /* Baby pink background color */
+    padding: 0.5em;
+    border-radius: 0 0 8px 8px;
+}
+
+.service-info h3 {
+    margin: 0;
+}
